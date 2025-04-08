@@ -1,0 +1,29 @@
+# Dependencies and AdonisJS build
+node_modules
+build
+tmp/* # Ignore everything within tmp
+!tmp/ # But keep the directory itself
+
+# Secrets
+.env
+.env.local
+.env.production.local
+.env.development.local
+
+# Frontend assets compiled code
+public/assets/* # Ignore everything within assets
+!public/assets/ # But keep the directory itself
+
+# Build tools specific
+npm-debug.log
+yarn-error.log
+
+# Editors specific
+.fleet
+.idea
+.vscode
+
+# Platform specific
+.DS_Store
+.pnpm-store
+bin
