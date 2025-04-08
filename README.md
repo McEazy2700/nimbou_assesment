@@ -58,7 +58,7 @@ The application follows a layered architecture:
 
 **Barter Coin Flow:**
 
-- Users earn Barter Coins through trading activities within the system (e.g., listing items, providing services).
+- Admins can mint and transfer BarterCoins.
 - When a user lists an item, the details are stored in the `BarterMarket` smart contract.
 - When a user buys an item:
   - The buyer's Barter Coin balance is decreased by the item's price.
